@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "model_role": "extreme_risk_ranker",
+  "strong_percentile_threshold": 0.99,
+  "strong_reason_code": "GLOBAL_EXTREME_RISK_PATTERN",
+  "usage_note": "V4 digunakan sebagai extreme-risk ranking signal. Threshold classifier eksperimen tidak dipakai untuk keputusan produk."
+}

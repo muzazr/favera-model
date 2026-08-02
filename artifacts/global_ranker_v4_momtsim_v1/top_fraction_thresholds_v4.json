@@ -1,0 +1,26 @@
+{
+  "top_1_percent": {
+    "fraction": 0.01,
+    "percent": 1.0,
+    "threshold": 0.3624491274397214,
+    "reference_split": "calibration"
+  },
+  "top_2_percent": {
+    "fraction": 0.02,
+    "percent": 2.0,
+    "threshold": 0.341170461914728,
+    "reference_split": "calibration"
+  },
+  "top_5_percent": {
+    "fraction": 0.05,
+    "percent": 5.0,
+    "threshold": 0.3227109965926347,
+    "reference_split": "calibration"
+  },
+  "top_10_percent": {
+    "fraction": 0.1,
+    "percent": 10.0,
+    "threshold": 0.3121976699554737,
+    "reference_split": "calibration"
+  }
+}

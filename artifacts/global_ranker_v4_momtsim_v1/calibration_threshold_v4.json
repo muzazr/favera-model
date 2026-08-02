@@ -1,0 +1,8 @@
+{
+  "threshold_version": "4.0.0",
+  "threshold": 0.30330462799301994,
+  "selection_split": "calibration",
+  "selection_strategy": "MINIMUM_FPR_AT_RECALL_GUARDRAIL",
+  "recommended_product_usage": false,
+  "usage_note": "Threshold eksperimen global classifier. Global ranker V4 direkomendasikan sebagai ranking signal dan input score fusion."
+}

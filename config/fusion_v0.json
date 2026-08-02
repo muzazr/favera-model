@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "global_weight": 0.2,
+  "personal_weight": 0.5,
+  "rule_weight": 0.3,
+  "needs_attention_threshold": 0.45,
+  "confirmation_threshold": 0.7,
+  "personal_support_for_global": 0.5,
+  "rule_support_for_global": 0.6,
+  "personal_high_threshold": 0.8,
+  "rule_support_for_personal": 0.6,
+  "independent_signal_threshold": 0.65,
+  "minimum_independent_signals": 2,
+  "critical_rule_override": true,
+  "redistribute_unavailable_weight": true
+}

@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "min_history_transactions": 8,
+  "new_recipient_amount_multiplier": 3.0,
+  "new_recipient_min_amount": 250000.0,
+  "high_amount_multiplier": 4.0,
+  "high_amount_min_amount": 500000.0,
+  "velocity_1h_count": 5,
+  "velocity_6h_count": 10,
+  "repeated_amount_window_hours": 6.0,
+  "repeated_amount_count": 3,
+  "repeated_amount_tolerance_ratio": 0.01,
+  "nearly_depleted_ratio": 0.05,
+  "large_balance_impact_ratio": 0.8,
+  "night_hours": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unusual_hour_max_share": 0.05,
+  "critical_severity_threshold": 0.9,
+  "additional_rule_bonus": 0.05,
+  "rule_severities": {
+    "LIMITED_USER_HISTORY": 0.25,
+    "NEW_RECIPIENT_HIGH_AMOUNT": 0.75,
+    "AMOUNT_ABOVE_PERSONAL_BASELINE": 0.7,
+    "HIGH_TRANSACTION_VELOCITY": 0.75,
+    "BALANCE_NEARLY_DEPLETED": 0.9,
+    "LARGE_BALANCE_IMPACT": 0.8,
+    "REPEATED_SAME_AMOUNT": 0.65,
+    "UNUSUAL_TRANSACTION_TIME": 0.45
+  }
+}

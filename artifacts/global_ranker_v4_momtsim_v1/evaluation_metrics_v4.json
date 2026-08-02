@@ -1,0 +1,60 @@
+{
+  "model": "LightGBM Candidate V4 Final Test",
+  "status": "TARGET NOT ACHIEVED",
+  "rows": 63651,
+  "fraud_rate": 0.28494446277356206,
+  "pr_auc": 0.3518926766516589,
+  "threshold": 0.30330462799301994,
+  "precision": 0.31106776136680314,
+  "precision_lift": 1.0916785619870093,
+  "recall": 0.8000771902740255,
+  "f1": 0.4479671533973389,
+  "false_positive_rate": 0.7061124049742936,
+  "alert_rate": 0.7328871502411588,
+  "true_positive": 14511,
+  "false_positive": 32138,
+  "false_negative": 3626,
+  "true_negative": 13376,
+  "top_k_metrics": [
+    {
+      "top_fraction": 0.01,
+      "top_percent": 1.0,
+      "transactions": 637,
+      "true_positive": 566,
+      "precision_at_k": 0.8885400313971743,
+      "recall_at_k": 0.031206925070298284
+    },
+    {
+      "top_fraction": 0.05,
+      "top_percent": 5.0,
+      "transactions": 3183,
+      "true_positive": 1315,
+      "precision_at_k": 0.41313226515865537,
+      "recall_at_k": 0.07250372167392623
+    },
+    {
+      "top_fraction": 0.1,
+      "top_percent": 10.0,
+      "transactions": 6366,
+      "true_positive": 2321,
+      "precision_at_k": 0.36459315111530005,
+      "recall_at_k": 0.12797044715223024
+    },
+    {
+      "top_fraction": 0.2,
+      "top_percent": 20.0,
+      "transactions": 12731,
+      "true_positive": 4218,
+      "precision_at_k": 0.33131725708899534,
+      "recall_at_k": 0.23256326845674588
+    }
+  ],
+  "baseline_candidate_v3": {
+    "pr_auc": 0.348577,
+    "precision": 0.30733,
+    "recall": 0.998952,
+    "f1": 0.470048,
+    "false_positive_rate": 0.897196,
+    "alert_rate": 0.926191
+  }
+}

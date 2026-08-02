@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0",
+  "min_history_transactions": 8,
+  "confidence_floor": 0.35,
+  "mad_epsilon": 1e-06,
+  "robust_z_start": 2.0,
+  "robust_z_full": 6.0,
+  "velocity_window_1h": 1.0,
+  "velocity_window_6h": 6.0,
+  "velocity_count_1h_full": 5,
+  "velocity_count_6h_full": 10,
+  "repeated_amount_window_hours": 6.0,
+  "repeated_amount_tolerance_ratio": 0.01,
+  "repeated_amount_full_count": 4,
+  "balance_impact_start": 0.3,
+  "balance_impact_full": 0.9,
+  "night_hours": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "time_frequency_smoothing": 1.0,
+  "reason_threshold": 0.65,
+  "component_weights": {
+    "amount_deviation": 0.32,
+    "recipient_novelty": 0.18,
+    "velocity_anomaly": 0.18,
+    "time_anomaly": 0.1,
+    "repeated_amount": 0.1,
+    "balance_impact": 0.12
+  }
+}
